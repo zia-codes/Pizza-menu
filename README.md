@@ -1,16 +1,87 @@
-# React + Vite
+<p align="center"> <img src="https://readme-typing-svg.demolab.com?font=Roboto+Mono&size=28&pause=1000&color=EDC84B&center=true&vCenter=true&width=700&lines=Fast+React+Pizza+Menu+App;React+Components+%7C+Props+%7C+Conditional+Rendering;Practice+Project+for+Reusable+UI" /> </p> <p align="center"> <img src="https://img.shields.io/badge/React-⚛-61DBFB?style=for-the-badge" /> <img src="https://img.shields.io/badge/JavaScript-ES6-EAD41C?style=for-the-badge" /> <img src="https://img.shields.io/badge/CSS-Styled-EDC84B?style=for-the-badge" /> </p>
+🍕 Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 A React practice project focused on component based architecture, props, conditional rendering, and dynamic UI creation.
+This project also includes a profile card and skills section that can be reused in other applications.
 
-Currently, two official plugins are available:
+🎬 What Happens In This App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Pizza menu is rendered dynamically from an array
+✨ Sold out pizzas automatically change style
+✨ Footer checks real time and shows open or closed state
+✨ Skills and profile card are generated from data
+✨ Clean CSS improves UI and readability
 
-## React Compiler
+🧩 Components Explained For Future Reuse
+<details> <summary><strong>🍕 Header Component</strong></summary>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Displays the restaurant name with decorative CSS lines.
+Useful for headers in landing pages.
 
-## Expanding the ESLint configuration
+</details> <details> <summary><strong>🍕 Menu Component</strong></summary>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Uses pizzaData array and .map() to render items.
+Includes fallback UI if menu is empty.
+
+</details> <details> <summary><strong>🍕 Pizza Component</strong></summary>
+
+Receives pizza object as props.
+Applies conditional CSS if pizza is sold out.
+
+</details> <details> <summary><strong>🍕 Footer and Order Component</strong></summary>
+
+Uses JavaScript Date to check open hours.
+Demonstrates real world conditional rendering.
+
+</details> <details> <summary><strong>👤 Profile Card and Skills</strong></summary>
+
+Avatar, intro text, and skills rendered from array.
+Skill levels are visually shown using emojis.
+
+</details>
+🎯 Concepts Practiced
+
+🔥 React functional components
+🔥 Props and component reuse
+🔥 Conditional rendering
+🔥 Mapping arrays into UI
+🔥 JSX styling and CSS structure
+
+🛠 Tech Stack
+
+⚛ React
+🧠 JavaScript
+🎨 CSS
+⚡ Vite
+
+▶ Run Locally
+git clone your-repo-url
+npm install
+npm run dev
+
+
+Open browser and explore the app.
+
+📂 File Guide
+
+📄 App.jsx
+All components and logic
+Reuse Menu, Pizza, Card, and Skills components in other projects
+
+📄 App.css
+UI layout, styling, and visual effects
+
+📚 Why This Repo Matters To Me
+
+This repository acts as a reference project.
+Whenever I build a new React app, I can reuse
+✔ Menu rendering logic
+✔ Conditional UI patterns
+✔ Profile card and skills layout
+
+<p align="center"> <img src="https://readme-jokes.vercel.app/api?theme=default" /> </p>
+👤 Author
+
+Zia
+
+🌟 Star the repo if you find it useful and revisit it whenever you need clean React patterns.
